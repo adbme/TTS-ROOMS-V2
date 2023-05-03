@@ -40,8 +40,8 @@ input.invalid {
 }
 
 button {
-    background-color: #04AA6D;
-    color: #ffffff;
+    background-color: #DABF36;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     font-size: 17px;
@@ -76,4 +76,17 @@ button:hover {
 /* Mark the steps that are finished and valid: */
 .step.finish {
     background-color: #04AA6D;
+}
+
+header {
+    width: 20%;
+    height: 100vh;
+    background-color: #ff0000;
+    position: absolute;
+    z-index: 11;
+    opacity: 0.5;
+}
+
+header img {
+    width: 50px;
 }
